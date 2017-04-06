@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"cordova-plugin-file",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "cordova-plugin-file",
+    "description": "api documentation for [cordova-plugin-file (v4.3.2)](https://github.com/apache/cordova-plugin-file#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-file.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-file) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file)",
     "devDependencies": {
         "cordova-plugin-file": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-cordova-plugin-file",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-cordova-plugin-file",
+    "keywords": [
+        "documentation",
+        "cordova-plugin-file"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_cordova_plugin_file.js",
+    "name": "npmdoc-cordova-plugin-file",
+    "nameAlias": "npmdoc_cordova_plugin_file",
+    "nameOriginal": "npmdoc-cordova-plugin-file",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-cordova-plugin-file"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
