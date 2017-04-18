@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/apache/cordova-plugin-file#readme"
-
-    >cordova-plugin-file (v4.3.2)</a>
+    <a href="https://github.com/apache/cordova-plugin-file#readme">cordova-plugin-file (v4.3.2)</a>
 </h1>
 <h4>Cordova File Plugin</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-file">module cordova-plugin-file</a><ol>
 
@@ -341,7 +334,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">File = function (name, localURL, type, lastModifiedDate, size){
-    this.name = name || &#x27;&#x27;;
+    this.name = name || '';
     this.localURL = localURL || null;
     this.type = type || null;
     this.lastModified = lastModifiedDate || null;
@@ -434,10 +427,10 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">Metadata = function (metadata) {
-    if (typeof metadata == &#x22;object&#x22;) {
+    if (typeof metadata == "object") {
         this.modificationTime = new Date(metadata.modificationTime);
         this.size = metadata.size || 0;
-    } else if (typeof metadata == &#x22;undefined&#x22;) {
+    } else if (typeof metadata == "undefined") {
         this.modificationTime = null;
         this.size = 0;
     } else {
@@ -463,9 +456,9 @@
     this.cancelBubble = false;
     this.cancelable = false;
     this.lengthComputable = false;
-    this.loaded = dict &#x26;&#x26; dict.loaded ? dict.loaded : 0;
-    this.total = dict &#x26;&#x26; dict.total ? dict.total : 0;
-    this.target = dict &#x26;&#x26; dict.target ? dict.target : null;
+    this.loaded = dict &amp;&amp; dict.loaded ? dict.loaded : 0;
+    this.total = dict &amp;&amp; dict.total ? dict.total : 0;
+    this.target = dict &amp;&amp; dict.target ? dict.target : null;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -489,7 +482,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">File = function (name, localURL, type, lastModifiedDate, size){
-    this.name = name || &#x27;&#x27;;
+    this.name = name || '';
     this.localURL = localURL || null;
     this.type = type || null;
     this.lastModified = lastModifiedDate || null;
@@ -523,15 +516,15 @@
     var newStart = 0;
     var newEnd = size;
     if (arguments.length) {
-        if (start &#x3c; 0) {
+        if (start &lt; 0) {
             newStart = Math.max(size + start, 0);
         } else {
             newStart = Math.min(size, start);
         }
     }
 
-    if (arguments.length &#x3e;= 2) {
-        if (end &#x3c; 0) {
+    if (arguments.length &gt;= 2) {
+        if (end &lt; 0) {
             newEnd = Math.max(size + end, 0);
         } else {
             newEnd = Math.min(end, size);
@@ -673,10 +666,10 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">Metadata = function (metadata) {
-    if (typeof metadata == &#x22;object&#x22;) {
+    if (typeof metadata == "object") {
         this.modificationTime = new Date(metadata.modificationTime);
         this.size = metadata.size || 0;
-    } else if (typeof metadata == &#x22;undefined&#x22;) {
+    } else if (typeof metadata == "undefined") {
         this.modificationTime = null;
         this.size = 0;
     } else {
@@ -707,9 +700,9 @@
     this.cancelBubble = false;
     this.cancelable = false;
     this.lengthComputable = false;
-    this.loaded = dict &#x26;&#x26; dict.loaded ? dict.loaded : 0;
-    this.total = dict &#x26;&#x26; dict.total ? dict.total : 0;
-    this.target = dict &#x26;&#x26; dict.target ? dict.target : null;
+    this.loaded = dict &amp;&amp; dict.loaded ? dict.loaded : 0;
+    this.total = dict &amp;&amp; dict.total ? dict.total : 0;
+    this.target = dict &amp;&amp; dict.target ? dict.target : null;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -743,3 +736,4 @@
     ]
 </div>
 </div>
+</body></html>
