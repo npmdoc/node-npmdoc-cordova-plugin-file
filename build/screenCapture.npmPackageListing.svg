@@ -1,132 +1,132 @@
 <svg height="2062" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="2062" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-18 07:39:22 +0000  1599480 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-18 07:39:22 +0000     1401 bytes  CONTRIBUTING.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-18 07:39:22 +0000    11357 bytes  LICENSE</tspan>
-<tspan x="10" y="74">  3.  2017-04-18 07:39:22 +0000      163 bytes  NOTICE</tspan>
-<tspan x="10" y="90">  4.  2017-04-18 07:39:22 +0000    47856 bytes  README.md</tspan>
-<tspan x="10" y="106">  5.  2017-04-18 07:39:22 +0000    37135 bytes  RELEASENOTES.md</tspan>
-<tspan x="10" y="122">  6.  2017-04-18 07:39:22 +0000    28349 bytes  doc/de/README.md</tspan>
-<tspan x="10" y="138">  7.  2017-04-18 07:39:22 +0000    27687 bytes  doc/de/index.md</tspan>
-<tspan x="10" y="154">  8.  2017-04-18 07:39:22 +0000     6270 bytes  doc/de/plugins.md</tspan>
-<tspan x="10" y="170">  9.  2017-04-18 07:39:22 +0000    29246 bytes  doc/es/README.md</tspan>
-<tspan x="10" y="186"> 10.  2017-04-18 07:39:22 +0000    28779 bytes  doc/es/index.md</tspan>
-<tspan x="10" y="202"> 11.  2017-04-18 07:39:22 +0000     6164 bytes  doc/es/plugins.md</tspan>
-<tspan x="10" y="218"> 12.  2017-04-18 07:39:22 +0000    30134 bytes  doc/fr/README.md</tspan>
-<tspan x="10" y="234"> 13.  2017-04-18 07:39:22 +0000    29496 bytes  doc/fr/index.md</tspan>
-<tspan x="10" y="250"> 14.  2017-04-18 07:39:22 +0000     6500 bytes  doc/fr/plugins.md</tspan>
-<tspan x="10" y="266"> 15.  2017-04-18 07:39:22 +0000    28670 bytes  doc/it/README.md</tspan>
-<tspan x="10" y="282"> 16.  2017-04-18 07:39:22 +0000    28053 bytes  doc/it/index.md</tspan>
-<tspan x="10" y="298"> 17.  2017-04-18 07:39:22 +0000     6259 bytes  doc/it/plugins.md</tspan>
-<tspan x="10" y="314"> 18.  2017-04-18 07:39:22 +0000    34681 bytes  doc/ja/README.md</tspan>
-<tspan x="10" y="330"> 19.  2017-04-18 07:39:22 +0000    33909 bytes  doc/ja/index.md</tspan>
-<tspan x="10" y="346"> 20.  2017-04-18 07:39:22 +0000     7244 bytes  doc/ja/plugins.md</tspan>
-<tspan x="10" y="362"> 21.  2017-04-18 07:39:22 +0000    29786 bytes  doc/ko/README.md</tspan>
-<tspan x="10" y="378"> 22.  2017-04-18 07:39:22 +0000    28966 bytes  doc/ko/index.md</tspan>
-<tspan x="10" y="394"> 23.  2017-04-18 07:39:22 +0000     6132 bytes  doc/ko/plugins.md</tspan>
-<tspan x="10" y="410"> 24.  2017-04-18 07:39:22 +0000    27904 bytes  doc/pl/README.md</tspan>
-<tspan x="10" y="426"> 25.  2017-04-18 07:39:22 +0000    27397 bytes  doc/pl/index.md</tspan>
-<tspan x="10" y="442"> 26.  2017-04-18 07:39:22 +0000     6063 bytes  doc/pl/plugins.md</tspan>
-<tspan x="10" y="458"> 27.  2017-04-18 07:39:22 +0000     5826 bytes  doc/plugins.md</tspan>
-<tspan x="10" y="474"> 28.  2017-04-18 07:39:22 +0000    28705 bytes  doc/ru/index.md</tspan>
-<tspan x="10" y="490"> 29.  2017-04-18 07:39:22 +0000     7673 bytes  doc/ru/plugins.md</tspan>
-<tspan x="10" y="506"> 30.  2017-04-18 07:39:22 +0000    25635 bytes  doc/zh/README.md</tspan>
-<tspan x="10" y="522"> 31.  2017-04-18 07:39:22 +0000    24842 bytes  doc/zh/index.md</tspan>
-<tspan x="10" y="538"> 32.  2017-04-18 07:39:22 +0000     5625 bytes  doc/zh/plugins.md</tspan>
-<tspan x="10" y="554"> 33.  2017-04-18 07:39:22 +0000     3620 bytes  package.json</tspan>
-<tspan x="10" y="570"> 34.  2017-04-18 07:39:22 +0000    17769 bytes  plugin.xml</tspan>
-<tspan x="10" y="586"> 35.  2017-04-18 07:39:22 +0000    11038 bytes  src/android/AssetFilesystem.java</tspan>
-<tspan x="10" y="602"> 36.  2017-04-18 07:39:22 +0000     8288 bytes  src/android/ContentFilesystem.java</tspan>
-<tspan x="10" y="618"> 37.  2017-04-18 07:39:22 +0000     4086 bytes  src/android/DirectoryManager.java</tspan>
-<tspan x="10" y="634"> 38.  2017-04-18 07:39:22 +0000     1054 bytes  src/android/EncodingException.java</tspan>
-<tspan x="10" y="650"> 39.  2017-04-18 07:39:22 +0000     1050 bytes  src/android/FileExistsException.java</tspan>
-<tspan x="10" y="666"> 40.  2017-04-18 07:39:22 +0000    54177 bytes  src/android/FileUtils.java</tspan>
-<tspan x="10" y="682"> 41.  2017-04-18 07:39:22 +0000    12578 bytes  src/android/Filesystem.java</tspan>
-<tspan x="10" y="698"> 42.  2017-04-18 07:39:22 +0000     1077 bytes  src/android/InvalidModificationException.java</tspan>
-<tspan x="10" y="714"> 43.  2017-04-18 07:39:22 +0000    19082 bytes  src/android/LocalFilesystem.java</tspan>
-<tspan x="10" y="730"> 44.  2017-04-18 07:39:22 +0000     2149 bytes  src/android/LocalFilesystemURL.java</tspan>
-<tspan x="10" y="746"> 45.  2017-04-18 07:39:22 +0000     1080 bytes  src/android/NoModificationAllowedException.java</tspan>
-<tspan x="10" y="762"> 46.  2017-04-18 07:39:22 +0000     3571 bytes  src/android/PendingRequests.java</tspan>
-<tspan x="10" y="778"> 47.  2017-04-18 07:39:22 +0000     1063 bytes  src/android/TypeMismatchException.java</tspan>
-<tspan x="10" y="794"> 48.  2017-04-18 07:39:22 +0000     1848 bytes  src/android/build-extras.gradle</tspan>
-<tspan x="10" y="810"> 49.  2017-04-18 07:39:22 +0000     1911 bytes  src/blackberry10/index.js</tspan>
-<tspan x="10" y="826"> 50.  2017-04-18 07:39:22 +0000    40057 bytes  src/browser/FileProxy.js</tspan>
-<tspan x="10" y="842"> 51.  2017-04-18 07:39:22 +0000    29661 bytes  src/firefoxos/FileProxy.js</tspan>
-<tspan x="10" y="858"> 52.  2017-04-18 07:39:22 +0000     1005 bytes  src/ios/CDVAssetLibraryFilesystem.h</tspan>
-<tspan x="10" y="874"> 53.  2017-04-18 07:39:22 +0000    11206 bytes  src/ios/CDVAssetLibraryFilesystem.m</tspan>
-<tspan x="10" y="890"> 54.  2017-04-18 07:39:22 +0000     6279 bytes  src/ios/CDVFile.h</tspan>
-<tspan x="10" y="906"> 55.  2017-04-18 07:39:22 +0000    44439 bytes  src/ios/CDVFile.m</tspan>
-<tspan x="10" y="922"> 56.  2017-04-18 07:39:22 +0000     1071 bytes  src/ios/CDVLocalFilesystem.h</tspan>
-<tspan x="10" y="938"> 57.  2017-04-18 07:39:22 +0000    31102 bytes  src/ios/CDVLocalFilesystem.m</tspan>
-<tspan x="10" y="954"> 58.  2017-04-18 07:39:22 +0000     7060 bytes  src/osx/CDVFile.h</tspan>
-<tspan x="10" y="970"> 59.  2017-04-18 07:39:22 +0000    40488 bytes  src/osx/CDVFile.m</tspan>
-<tspan x="10" y="986"> 60.  2017-04-18 07:39:22 +0000     1071 bytes  src/osx/CDVLocalFilesystem.h</tspan>
-<tspan x="10" y="1002"> 61.  2017-04-18 07:39:22 +0000    31062 bytes  src/osx/CDVLocalFilesystem.m</tspan>
-<tspan x="10" y="1018"> 62.  2017-04-18 07:39:22 +0000    27631 bytes  src/ubuntu/file.cpp</tspan>
-<tspan x="10" y="1034"> 63.  2017-04-18 07:39:22 +0000     3503 bytes  src/ubuntu/file.h</tspan>
-<tspan x="10" y="1050"> 64.  2017-04-18 07:39:22 +0000    45016 bytes  src/windows/FileProxy.js</tspan>
-<tspan x="10" y="1066"> 65.  2017-04-18 07:39:22 +0000    67666 bytes  src/wp/File.cs</tspan>
-<tspan x="10" y="1082"> 66.  2017-04-18 07:39:22 +0000     1819 bytes  tests/plugin.xml</tspan>
-<tspan x="10" y="1098"> 67.  2017-04-18 07:39:22 +0000     3160 bytes  tests/src/android/TestContentProvider.java</tspan>
-<tspan x="10" y="1114"> 68.  2017-04-18 07:39:22 +0000   239960 bytes  tests/tests.js</tspan>
-<tspan x="10" y="1130"> 69.  2017-04-18 07:39:22 +0000       38 bytes  tests/www/fixtures/asset-test/asset-test.txt</tspan>
-<tspan x="10" y="1146"> 70.  2017-04-18 07:39:22 +0000    17888 bytes  types/index.d.ts</tspan>
-<tspan x="10" y="1162"> 71.  2017-04-18 07:39:22 +0000     4576 bytes  www/DirectoryEntry.js</tspan>
-<tspan x="10" y="1178"> 72.  2017-04-18 07:39:22 +0000     2633 bytes  www/DirectoryReader.js</tspan>
-<tspan x="10" y="1194"> 73.  2017-04-18 07:39:22 +0000     9847 bytes  www/Entry.js</tspan>
-<tspan x="10" y="1210"> 74.  2017-04-18 07:39:22 +0000     2627 bytes  www/File.js</tspan>
-<tspan x="10" y="1226"> 75.  2017-04-18 07:39:22 +0000     3328 bytes  www/FileEntry.js</tspan>
-<tspan x="10" y="1242"> 76.  2017-04-18 07:39:22 +0000     1390 bytes  www/FileError.js</tspan>
-<tspan x="10" y="1258"> 77.  2017-04-18 07:39:22 +0000    10340 bytes  www/FileReader.js</tspan>
-<tspan x="10" y="1274"> 78.  2017-04-18 07:39:22 +0000     1865 bytes  www/FileSystem.js</tspan>
-<tspan x="10" y="1290"> 79.  2017-04-18 07:39:22 +0000     1732 bytes  www/FileUploadOptions.js</tspan>
-<tspan x="10" y="1306"> 80.  2017-04-18 07:39:22 +0000     1004 bytes  www/FileUploadResult.js</tspan>
-<tspan x="10" y="1322"> 81.  2017-04-18 07:39:22 +0000    10339 bytes  www/FileWriter.js</tspan>
-<tspan x="10" y="1338"> 82.  2017-04-18 07:39:22 +0000     1249 bytes  www/Flags.js</tspan>
-<tspan x="10" y="1354"> 83.  2017-04-18 07:39:22 +0000      861 bytes  www/LocalFileSystem.js</tspan>
-<tspan x="10" y="1370"> 84.  2017-04-18 07:39:22 +0000     1396 bytes  www/Metadata.js</tspan>
-<tspan x="10" y="1386"> 85.  2017-04-18 07:39:22 +0000     2487 bytes  www/ProgressEvent.js</tspan>
-<tspan x="10" y="1402"> 86.  2017-04-18 07:39:22 +0000     1871 bytes  www/android/FileSystem.js</tspan>
-<tspan x="10" y="1418"> 87.  2017-04-18 07:39:22 +0000     2344 bytes  www/blackberry10/FileProxy.js</tspan>
-<tspan x="10" y="1434"> 88.  2017-04-18 07:39:22 +0000     1488 bytes  www/blackberry10/FileSystem.js</tspan>
-<tspan x="10" y="1450"> 89.  2017-04-18 07:39:22 +0000     5201 bytes  www/blackberry10/copyTo.js</tspan>
-<tspan x="10" y="1466"> 90.  2017-04-18 07:39:22 +0000     3049 bytes  www/blackberry10/createEntryFromNative.js</tspan>
-<tspan x="10" y="1482"> 91.  2017-04-18 07:39:22 +0000     2604 bytes  www/blackberry10/getDirectory.js</tspan>
-<tspan x="10" y="1498"> 92.  2017-04-18 07:39:22 +0000     1780 bytes  www/blackberry10/getFile.js</tspan>
-<tspan x="10" y="1514"> 93.  2017-04-18 07:39:22 +0000     1973 bytes  www/blackberry10/getFileMetadata.js</tspan>
-<tspan x="10" y="1530"> 94.  2017-04-18 07:39:22 +0000     1619 bytes  www/blackberry10/getMetadata.js</tspan>
-<tspan x="10" y="1546"> 95.  2017-04-18 07:39:22 +0000     1794 bytes  www/blackberry10/getParent.js</tspan>
-<tspan x="10" y="1562"> 96.  2017-04-18 07:39:22 +0000     1629 bytes  www/blackberry10/info.js</tspan>
-<tspan x="10" y="1578"> 97.  2017-04-18 07:39:22 +0000     1243 bytes  www/blackberry10/moveTo.js</tspan>
-<tspan x="10" y="1594"> 98.  2017-04-18 07:39:22 +0000     2171 bytes  www/blackberry10/readAsArrayBuffer.js</tspan>
-<tspan x="10" y="1610"> 99.  2017-04-18 07:39:22 +0000     2187 bytes  www/blackberry10/readAsBinaryString.js</tspan>
-<tspan x="10" y="1626">100.  2017-04-18 07:39:22 +0000     2072 bytes  www/blackberry10/readAsDataURL.js</tspan>
-<tspan x="10" y="1642">101.  2017-04-18 07:39:22 +0000     2553 bytes  www/blackberry10/readAsText.js</tspan>
-<tspan x="10" y="1658">102.  2017-04-18 07:39:22 +0000     2409 bytes  www/blackberry10/readEntries.js</tspan>
-<tspan x="10" y="1674">103.  2017-04-18 07:39:22 +0000     1901 bytes  www/blackberry10/remove.js</tspan>
-<tspan x="10" y="1690">104.  2017-04-18 07:39:22 +0000     2058 bytes  www/blackberry10/removeRecursively.js</tspan>
-<tspan x="10" y="1706">105.  2017-04-18 07:39:22 +0000     1434 bytes  www/blackberry10/requestAllFileSystems.js</tspan>
-<tspan x="10" y="1722">106.  2017-04-18 07:39:22 +0000     1395 bytes  www/blackberry10/requestAnimationFrame.js</tspan>
-<tspan x="10" y="1738">107.  2017-04-18 07:39:22 +0000     1638 bytes  www/blackberry10/requestFileSystem.js</tspan>
-<tspan x="10" y="1754">108.  2017-04-18 07:39:22 +0000     6318 bytes  www/blackberry10/resolveLocalFileSystemURI.js</tspan>
-<tspan x="10" y="1770">109.  2017-04-18 07:39:22 +0000     1096 bytes  www/blackberry10/setMetadata.js</tspan>
-<tspan x="10" y="1786">110.  2017-04-18 07:39:22 +0000     2575 bytes  www/blackberry10/truncate.js</tspan>
-<tspan x="10" y="1802">111.  2017-04-18 07:39:22 +0000     2329 bytes  www/blackberry10/write.js</tspan>
-<tspan x="10" y="1818">112.  2017-04-18 07:39:22 +0000     1077 bytes  www/browser/FileSystem.js</tspan>
-<tspan x="10" y="1834">113.  2017-04-18 07:39:22 +0000     7749 bytes  www/browser/Preparing.js</tspan>
-<tspan x="10" y="1850">114.  2017-04-18 07:39:22 +0000     1143 bytes  www/browser/isChrome.js</tspan>
-<tspan x="10" y="1866">115.  2017-04-18 07:39:22 +0000     2451 bytes  www/fileSystemPaths.js</tspan>
-<tspan x="10" y="1882">116.  2017-04-18 07:39:22 +0000     1499 bytes  www/fileSystems-roots.js</tspan>
-<tspan x="10" y="1898">117.  2017-04-18 07:39:22 +0000      954 bytes  www/fileSystems.js</tspan>
-<tspan x="10" y="1914">118.  2017-04-18 07:39:22 +0000     1033 bytes  www/firefoxos/FileSystem.js</tspan>
-<tspan x="10" y="1930">119.  2017-04-18 07:39:22 +0000     1090 bytes  www/ios/FileSystem.js</tspan>
-<tspan x="10" y="1946">120.  2017-04-18 07:39:22 +0000     1090 bytes  www/osx/FileSystem.js</tspan>
-<tspan x="10" y="1962">121.  2017-04-18 07:39:22 +0000     3123 bytes  www/requestFileSystem.js</tspan>
-<tspan x="10" y="1978">122.  2017-04-18 07:39:22 +0000     4122 bytes  www/resolveLocalFileSystemURI.js</tspan>
-<tspan x="10" y="1994">123.  2017-04-18 07:39:22 +0000     1195 bytes  www/ubuntu/FileSystem.js</tspan>
-<tspan x="10" y="2010">124.  2017-04-18 07:39:22 +0000     4393 bytes  www/ubuntu/FileWriter.js</tspan>
-<tspan x="10" y="2026">125.  2017-04-18 07:39:22 +0000     1798 bytes  www/ubuntu/fileSystems-roots.js</tspan>
-<tspan x="10" y="2042">126.  2017-04-18 07:39:22 +0000     1828 bytes  www/wp/FileUploadOptions.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-18 16:02:02 +0000  1599480 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-18 16:02:02 +0000     1401 bytes  CONTRIBUTING.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-18 16:02:02 +0000    11357 bytes  LICENSE</tspan>
+<tspan x="10" y="74">  3.  2017-04-18 16:02:02 +0000      163 bytes  NOTICE</tspan>
+<tspan x="10" y="90">  4.  2017-04-18 16:02:02 +0000    47856 bytes  README.md</tspan>
+<tspan x="10" y="106">  5.  2017-04-18 16:02:02 +0000    37135 bytes  RELEASENOTES.md</tspan>
+<tspan x="10" y="122">  6.  2017-04-18 16:02:02 +0000    28349 bytes  doc/de/README.md</tspan>
+<tspan x="10" y="138">  7.  2017-04-18 16:02:02 +0000    27687 bytes  doc/de/index.md</tspan>
+<tspan x="10" y="154">  8.  2017-04-18 16:02:02 +0000     6270 bytes  doc/de/plugins.md</tspan>
+<tspan x="10" y="170">  9.  2017-04-18 16:02:02 +0000    29246 bytes  doc/es/README.md</tspan>
+<tspan x="10" y="186"> 10.  2017-04-18 16:02:02 +0000    28779 bytes  doc/es/index.md</tspan>
+<tspan x="10" y="202"> 11.  2017-04-18 16:02:02 +0000     6164 bytes  doc/es/plugins.md</tspan>
+<tspan x="10" y="218"> 12.  2017-04-18 16:02:02 +0000    30134 bytes  doc/fr/README.md</tspan>
+<tspan x="10" y="234"> 13.  2017-04-18 16:02:02 +0000    29496 bytes  doc/fr/index.md</tspan>
+<tspan x="10" y="250"> 14.  2017-04-18 16:02:02 +0000     6500 bytes  doc/fr/plugins.md</tspan>
+<tspan x="10" y="266"> 15.  2017-04-18 16:02:02 +0000    28670 bytes  doc/it/README.md</tspan>
+<tspan x="10" y="282"> 16.  2017-04-18 16:02:02 +0000    28053 bytes  doc/it/index.md</tspan>
+<tspan x="10" y="298"> 17.  2017-04-18 16:02:02 +0000     6259 bytes  doc/it/plugins.md</tspan>
+<tspan x="10" y="314"> 18.  2017-04-18 16:02:02 +0000    34681 bytes  doc/ja/README.md</tspan>
+<tspan x="10" y="330"> 19.  2017-04-18 16:02:02 +0000    33909 bytes  doc/ja/index.md</tspan>
+<tspan x="10" y="346"> 20.  2017-04-18 16:02:02 +0000     7244 bytes  doc/ja/plugins.md</tspan>
+<tspan x="10" y="362"> 21.  2017-04-18 16:02:02 +0000    29786 bytes  doc/ko/README.md</tspan>
+<tspan x="10" y="378"> 22.  2017-04-18 16:02:02 +0000    28966 bytes  doc/ko/index.md</tspan>
+<tspan x="10" y="394"> 23.  2017-04-18 16:02:02 +0000     6132 bytes  doc/ko/plugins.md</tspan>
+<tspan x="10" y="410"> 24.  2017-04-18 16:02:02 +0000    27904 bytes  doc/pl/README.md</tspan>
+<tspan x="10" y="426"> 25.  2017-04-18 16:02:02 +0000    27397 bytes  doc/pl/index.md</tspan>
+<tspan x="10" y="442"> 26.  2017-04-18 16:02:02 +0000     6063 bytes  doc/pl/plugins.md</tspan>
+<tspan x="10" y="458"> 27.  2017-04-18 16:02:02 +0000     5826 bytes  doc/plugins.md</tspan>
+<tspan x="10" y="474"> 28.  2017-04-18 16:02:02 +0000    28705 bytes  doc/ru/index.md</tspan>
+<tspan x="10" y="490"> 29.  2017-04-18 16:02:02 +0000     7673 bytes  doc/ru/plugins.md</tspan>
+<tspan x="10" y="506"> 30.  2017-04-18 16:02:02 +0000    25635 bytes  doc/zh/README.md</tspan>
+<tspan x="10" y="522"> 31.  2017-04-18 16:02:02 +0000    24842 bytes  doc/zh/index.md</tspan>
+<tspan x="10" y="538"> 32.  2017-04-18 16:02:02 +0000     5625 bytes  doc/zh/plugins.md</tspan>
+<tspan x="10" y="554"> 33.  2017-04-18 16:02:02 +0000     3620 bytes  package.json</tspan>
+<tspan x="10" y="570"> 34.  2017-04-18 16:02:02 +0000    17769 bytes  plugin.xml</tspan>
+<tspan x="10" y="586"> 35.  2017-04-18 16:02:02 +0000    11038 bytes  src/android/AssetFilesystem.java</tspan>
+<tspan x="10" y="602"> 36.  2017-04-18 16:02:02 +0000     8288 bytes  src/android/ContentFilesystem.java</tspan>
+<tspan x="10" y="618"> 37.  2017-04-18 16:02:02 +0000     4086 bytes  src/android/DirectoryManager.java</tspan>
+<tspan x="10" y="634"> 38.  2017-04-18 16:02:02 +0000     1054 bytes  src/android/EncodingException.java</tspan>
+<tspan x="10" y="650"> 39.  2017-04-18 16:02:02 +0000     1050 bytes  src/android/FileExistsException.java</tspan>
+<tspan x="10" y="666"> 40.  2017-04-18 16:02:02 +0000    54177 bytes  src/android/FileUtils.java</tspan>
+<tspan x="10" y="682"> 41.  2017-04-18 16:02:02 +0000    12578 bytes  src/android/Filesystem.java</tspan>
+<tspan x="10" y="698"> 42.  2017-04-18 16:02:02 +0000     1077 bytes  src/android/InvalidModificationException.java</tspan>
+<tspan x="10" y="714"> 43.  2017-04-18 16:02:02 +0000    19082 bytes  src/android/LocalFilesystem.java</tspan>
+<tspan x="10" y="730"> 44.  2017-04-18 16:02:02 +0000     2149 bytes  src/android/LocalFilesystemURL.java</tspan>
+<tspan x="10" y="746"> 45.  2017-04-18 16:02:02 +0000     1080 bytes  src/android/NoModificationAllowedException.java</tspan>
+<tspan x="10" y="762"> 46.  2017-04-18 16:02:02 +0000     3571 bytes  src/android/PendingRequests.java</tspan>
+<tspan x="10" y="778"> 47.  2017-04-18 16:02:02 +0000     1063 bytes  src/android/TypeMismatchException.java</tspan>
+<tspan x="10" y="794"> 48.  2017-04-18 16:02:02 +0000     1848 bytes  src/android/build-extras.gradle</tspan>
+<tspan x="10" y="810"> 49.  2017-04-18 16:02:02 +0000     1911 bytes  src/blackberry10/index.js</tspan>
+<tspan x="10" y="826"> 50.  2017-04-18 16:02:02 +0000    40057 bytes  src/browser/FileProxy.js</tspan>
+<tspan x="10" y="842"> 51.  2017-04-18 16:02:02 +0000    29661 bytes  src/firefoxos/FileProxy.js</tspan>
+<tspan x="10" y="858"> 52.  2017-04-18 16:02:02 +0000     1005 bytes  src/ios/CDVAssetLibraryFilesystem.h</tspan>
+<tspan x="10" y="874"> 53.  2017-04-18 16:02:02 +0000    11206 bytes  src/ios/CDVAssetLibraryFilesystem.m</tspan>
+<tspan x="10" y="890"> 54.  2017-04-18 16:02:02 +0000     6279 bytes  src/ios/CDVFile.h</tspan>
+<tspan x="10" y="906"> 55.  2017-04-18 16:02:02 +0000    44439 bytes  src/ios/CDVFile.m</tspan>
+<tspan x="10" y="922"> 56.  2017-04-18 16:02:02 +0000     1071 bytes  src/ios/CDVLocalFilesystem.h</tspan>
+<tspan x="10" y="938"> 57.  2017-04-18 16:02:02 +0000    31102 bytes  src/ios/CDVLocalFilesystem.m</tspan>
+<tspan x="10" y="954"> 58.  2017-04-18 16:02:02 +0000     7060 bytes  src/osx/CDVFile.h</tspan>
+<tspan x="10" y="970"> 59.  2017-04-18 16:02:02 +0000    40488 bytes  src/osx/CDVFile.m</tspan>
+<tspan x="10" y="986"> 60.  2017-04-18 16:02:02 +0000     1071 bytes  src/osx/CDVLocalFilesystem.h</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-18 16:02:02 +0000    31062 bytes  src/osx/CDVLocalFilesystem.m</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-18 16:02:02 +0000    27631 bytes  src/ubuntu/file.cpp</tspan>
+<tspan x="10" y="1034"> 63.  2017-04-18 16:02:02 +0000     3503 bytes  src/ubuntu/file.h</tspan>
+<tspan x="10" y="1050"> 64.  2017-04-18 16:02:02 +0000    45016 bytes  src/windows/FileProxy.js</tspan>
+<tspan x="10" y="1066"> 65.  2017-04-18 16:02:02 +0000    67666 bytes  src/wp/File.cs</tspan>
+<tspan x="10" y="1082"> 66.  2017-04-18 16:02:02 +0000     1819 bytes  tests/plugin.xml</tspan>
+<tspan x="10" y="1098"> 67.  2017-04-18 16:02:02 +0000     3160 bytes  tests/src/android/TestContentProvider.java</tspan>
+<tspan x="10" y="1114"> 68.  2017-04-18 16:02:02 +0000   239960 bytes  tests/tests.js</tspan>
+<tspan x="10" y="1130"> 69.  2017-04-18 16:02:02 +0000       38 bytes  tests/www/fixtures/asset-test/asset-test.txt</tspan>
+<tspan x="10" y="1146"> 70.  2017-04-18 16:02:02 +0000    17888 bytes  types/index.d.ts</tspan>
+<tspan x="10" y="1162"> 71.  2017-04-18 16:02:02 +0000     4576 bytes  www/DirectoryEntry.js</tspan>
+<tspan x="10" y="1178"> 72.  2017-04-18 16:02:02 +0000     2633 bytes  www/DirectoryReader.js</tspan>
+<tspan x="10" y="1194"> 73.  2017-04-18 16:02:02 +0000     9847 bytes  www/Entry.js</tspan>
+<tspan x="10" y="1210"> 74.  2017-04-18 16:02:02 +0000     2627 bytes  www/File.js</tspan>
+<tspan x="10" y="1226"> 75.  2017-04-18 16:02:02 +0000     3328 bytes  www/FileEntry.js</tspan>
+<tspan x="10" y="1242"> 76.  2017-04-18 16:02:02 +0000     1390 bytes  www/FileError.js</tspan>
+<tspan x="10" y="1258"> 77.  2017-04-18 16:02:02 +0000    10340 bytes  www/FileReader.js</tspan>
+<tspan x="10" y="1274"> 78.  2017-04-18 16:02:02 +0000     1865 bytes  www/FileSystem.js</tspan>
+<tspan x="10" y="1290"> 79.  2017-04-18 16:02:02 +0000     1732 bytes  www/FileUploadOptions.js</tspan>
+<tspan x="10" y="1306"> 80.  2017-04-18 16:02:02 +0000     1004 bytes  www/FileUploadResult.js</tspan>
+<tspan x="10" y="1322"> 81.  2017-04-18 16:02:02 +0000    10339 bytes  www/FileWriter.js</tspan>
+<tspan x="10" y="1338"> 82.  2017-04-18 16:02:02 +0000     1249 bytes  www/Flags.js</tspan>
+<tspan x="10" y="1354"> 83.  2017-04-18 16:02:02 +0000      861 bytes  www/LocalFileSystem.js</tspan>
+<tspan x="10" y="1370"> 84.  2017-04-18 16:02:02 +0000     1396 bytes  www/Metadata.js</tspan>
+<tspan x="10" y="1386"> 85.  2017-04-18 16:02:02 +0000     2487 bytes  www/ProgressEvent.js</tspan>
+<tspan x="10" y="1402"> 86.  2017-04-18 16:02:02 +0000     1871 bytes  www/android/FileSystem.js</tspan>
+<tspan x="10" y="1418"> 87.  2017-04-18 16:02:02 +0000     2344 bytes  www/blackberry10/FileProxy.js</tspan>
+<tspan x="10" y="1434"> 88.  2017-04-18 16:02:02 +0000     1488 bytes  www/blackberry10/FileSystem.js</tspan>
+<tspan x="10" y="1450"> 89.  2017-04-18 16:02:02 +0000     5201 bytes  www/blackberry10/copyTo.js</tspan>
+<tspan x="10" y="1466"> 90.  2017-04-18 16:02:02 +0000     3049 bytes  www/blackberry10/createEntryFromNative.js</tspan>
+<tspan x="10" y="1482"> 91.  2017-04-18 16:02:02 +0000     2604 bytes  www/blackberry10/getDirectory.js</tspan>
+<tspan x="10" y="1498"> 92.  2017-04-18 16:02:02 +0000     1780 bytes  www/blackberry10/getFile.js</tspan>
+<tspan x="10" y="1514"> 93.  2017-04-18 16:02:02 +0000     1973 bytes  www/blackberry10/getFileMetadata.js</tspan>
+<tspan x="10" y="1530"> 94.  2017-04-18 16:02:02 +0000     1619 bytes  www/blackberry10/getMetadata.js</tspan>
+<tspan x="10" y="1546"> 95.  2017-04-18 16:02:02 +0000     1794 bytes  www/blackberry10/getParent.js</tspan>
+<tspan x="10" y="1562"> 96.  2017-04-18 16:02:02 +0000     1629 bytes  www/blackberry10/info.js</tspan>
+<tspan x="10" y="1578"> 97.  2017-04-18 16:02:02 +0000     1243 bytes  www/blackberry10/moveTo.js</tspan>
+<tspan x="10" y="1594"> 98.  2017-04-18 16:02:02 +0000     2171 bytes  www/blackberry10/readAsArrayBuffer.js</tspan>
+<tspan x="10" y="1610"> 99.  2017-04-18 16:02:02 +0000     2187 bytes  www/blackberry10/readAsBinaryString.js</tspan>
+<tspan x="10" y="1626">100.  2017-04-18 16:02:02 +0000     2072 bytes  www/blackberry10/readAsDataURL.js</tspan>
+<tspan x="10" y="1642">101.  2017-04-18 16:02:02 +0000     2553 bytes  www/blackberry10/readAsText.js</tspan>
+<tspan x="10" y="1658">102.  2017-04-18 16:02:02 +0000     2409 bytes  www/blackberry10/readEntries.js</tspan>
+<tspan x="10" y="1674">103.  2017-04-18 16:02:02 +0000     1901 bytes  www/blackberry10/remove.js</tspan>
+<tspan x="10" y="1690">104.  2017-04-18 16:02:02 +0000     2058 bytes  www/blackberry10/removeRecursively.js</tspan>
+<tspan x="10" y="1706">105.  2017-04-18 16:02:02 +0000     1434 bytes  www/blackberry10/requestAllFileSystems.js</tspan>
+<tspan x="10" y="1722">106.  2017-04-18 16:02:02 +0000     1395 bytes  www/blackberry10/requestAnimationFrame.js</tspan>
+<tspan x="10" y="1738">107.  2017-04-18 16:02:02 +0000     1638 bytes  www/blackberry10/requestFileSystem.js</tspan>
+<tspan x="10" y="1754">108.  2017-04-18 16:02:02 +0000     6318 bytes  www/blackberry10/resolveLocalFileSystemURI.js</tspan>
+<tspan x="10" y="1770">109.  2017-04-18 16:02:02 +0000     1096 bytes  www/blackberry10/setMetadata.js</tspan>
+<tspan x="10" y="1786">110.  2017-04-18 16:02:02 +0000     2575 bytes  www/blackberry10/truncate.js</tspan>
+<tspan x="10" y="1802">111.  2017-04-18 16:02:02 +0000     2329 bytes  www/blackberry10/write.js</tspan>
+<tspan x="10" y="1818">112.  2017-04-18 16:02:02 +0000     1077 bytes  www/browser/FileSystem.js</tspan>
+<tspan x="10" y="1834">113.  2017-04-18 16:02:02 +0000     7749 bytes  www/browser/Preparing.js</tspan>
+<tspan x="10" y="1850">114.  2017-04-18 16:02:02 +0000     1143 bytes  www/browser/isChrome.js</tspan>
+<tspan x="10" y="1866">115.  2017-04-18 16:02:02 +0000     2451 bytes  www/fileSystemPaths.js</tspan>
+<tspan x="10" y="1882">116.  2017-04-18 16:02:02 +0000     1499 bytes  www/fileSystems-roots.js</tspan>
+<tspan x="10" y="1898">117.  2017-04-18 16:02:02 +0000      954 bytes  www/fileSystems.js</tspan>
+<tspan x="10" y="1914">118.  2017-04-18 16:02:02 +0000     1033 bytes  www/firefoxos/FileSystem.js</tspan>
+<tspan x="10" y="1930">119.  2017-04-18 16:02:02 +0000     1090 bytes  www/ios/FileSystem.js</tspan>
+<tspan x="10" y="1946">120.  2017-04-18 16:02:02 +0000     1090 bytes  www/osx/FileSystem.js</tspan>
+<tspan x="10" y="1962">121.  2017-04-18 16:02:02 +0000     3123 bytes  www/requestFileSystem.js</tspan>
+<tspan x="10" y="1978">122.  2017-04-18 16:02:02 +0000     4122 bytes  www/resolveLocalFileSystemURI.js</tspan>
+<tspan x="10" y="1994">123.  2017-04-18 16:02:02 +0000     1195 bytes  www/ubuntu/FileSystem.js</tspan>
+<tspan x="10" y="2010">124.  2017-04-18 16:02:02 +0000     4393 bytes  www/ubuntu/FileWriter.js</tspan>
+<tspan x="10" y="2026">125.  2017-04-18 16:02:02 +0000     1798 bytes  www/ubuntu/fileSystems-roots.js</tspan>
+<tspan x="10" y="2042">126.  2017-04-18 16:02:02 +0000     1828 bytes  www/wp/FileUploadOptions.js</tspan>
 </text>
 </svg>
