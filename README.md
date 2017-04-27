@@ -1,6 +1,6 @@
 # npmdoc-cordova-plugin-file
 
-#### api documentation for  [cordova-plugin-file (v4.3.2)](https://github.com/apache/cordova-plugin-file#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-file.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-file) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file)
+#### basic api documentation for  [cordova-plugin-file (v4.3.2)](https://github.com/apache/cordova-plugin-file#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-file.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-file) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file)
 
 #### Cordova File Plugin
 
@@ -112,7 +112,8 @@
         "test": "npm run jshint"
     },
     "types": "./types/index.d.ts",
-    "version": "4.3.2"
+    "version": "4.3.2",
+    "bin": {}
 }
 ```
 
