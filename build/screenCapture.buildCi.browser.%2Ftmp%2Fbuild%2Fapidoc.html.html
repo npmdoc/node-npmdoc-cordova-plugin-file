@@ -71,7 +71,19 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cordova-plugin-file.</span>FileSystem</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cordova-plugin-file.</span>fileSystems</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cordova-plugin-file.</span>index</span>
 
         </li>
 
@@ -103,6 +115,19 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-file.FileSystem">module cordova-plugin-file.FileSystem</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-file.FileSystem.__format__">
+            function <span class="apidocSignatureSpan">cordova-plugin-file.FileSystem.</span>__format__
+            <span class="apidocSignatureSpan">(fullPath, nativeUrl)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
     <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-file.fileSystems">module cordova-plugin-file.fileSystems</a><ol>
 
         <li>
@@ -110,6 +135,37 @@
             <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-file.fileSystems.getFs">
             function <span class="apidocSignatureSpan">cordova-plugin-file.fileSystems.</span>getFs
             <span class="apidocSignatureSpan">(name, callback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-file.index">module cordova-plugin-file.index</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-file.index.getHomePath">
+            function <span class="apidocSignatureSpan">cordova-plugin-file.index.</span>getHomePath
+            <span class="apidocSignatureSpan">(success, fail, args, env)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-file.index.requestAllPaths">
+            function <span class="apidocSignatureSpan">cordova-plugin-file.index.</span>requestAllPaths
+            <span class="apidocSignatureSpan">(success, fail, args, env)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-file.index.setSandbox">
+            function <span class="apidocSignatureSpan">cordova-plugin-file.index.</span>setSandbox
+            <span class="apidocSignatureSpan">(success, fail, args, env)</span>
             </a>
 
         </li>
@@ -144,6 +200,10 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
+
+
+
+
 
 
 
@@ -218,7 +278,82 @@
     newFile.end = this.start + newEnd;
     return newFile;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* Use TRAVIS_BUILD_DIR, install paramedic by npm
+* docs: added Windows to supported platforms
+* [CB-8699](https://issues.apache.org/jira/browse/CB-8699) [CB-6428](https://issues.apache.org/jira/browse/CB-6428) Fix uncompressed
+ assets being copied as zero length files
+* [CB-6428](https://issues.apache.org/jira/browse/CB-6428) android: Fix assets FileEntry having size of -1
+* android: Move URLforFullPath into base class (and rename to localUrlforFullPath)
+* [CB-6428](https://issues.apache.org/jira/browse/CB-6428) Mention build-extras.gradle in README
+* [CB-7109](https://issues.apache.org/jira/browse/CB-7109) android: Parse arguments off of the main thread (close #97)
+* [CB-8695](https://issues.apache.org/jira/browse/CB-8695) ios: Fix `blob.<span class="apidocCodeKeywordSpan">slice</span>()` for
+ `asset-library` URLs (close #105)
+* Tweak build-extras.gradle to just read/write to main `assets/` instead of `build/`
+* [CB-8689](https://issues.apache.org/jira/browse/CB-8689) Fix NPE in makeEntryForNativeUri (was affecting file-transfer)
+* [CB-8675](https://issues.apache.org/jira/browse/CB-8675) Revert "CB-8351 ios: Use base64EncodedStringWithOptions instead
+of CordovaLib's class extension"
+* [CB-8653](https://issues.apache.org/jira/browse/CB-8653) Updated Readme
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): ios: 4.0.x Compatibility: Remove use of initWebView method
+* Add a cache to speed up AssetFilesystem directory listings
+* [CB-8663](https://issues.apache.org/jira/browse/CB-8663) android: Don't notify MediaScanner of private files
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cordova-plugin-file.FileSystem" id="apidoc.module.cordova-plugin-file.FileSystem">module cordova-plugin-file.FileSystem</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-file.FileSystem.__format__" id="apidoc.element.cordova-plugin-file.FileSystem.__format__">
+        function <span class="apidocSignatureSpan">cordova-plugin-file.FileSystem.</span>__format__
+        <span class="apidocSignatureSpan">(fullPath, nativeUrl)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">__format__ = function (fullPath, nativeUrl) {
+    var path;
+    var contentUrlMatch = /^content:\/\//.exec(nativeUrl);
+    if (contentUrlMatch) {
+        // When available, use the path from a native content URL, which was already encoded by Android.
+        // This is necessary because JavaScript's encodeURI() does not encode as many characters as
+        // Android, which can result in permission exceptions when the encoding of a content URI
+        // doesn't match the string for which permission was originally granted.
+        path = nativeUrl.substring(contentUrlMatch[0].length - 1);
+    } else {
+        path = FileSystem.encodeURIPath(fullPath);
+        if (!/^\//.test(path)) {
+            path = '/' + path;
+        }
+
+        var m = /\?.*/.exec(nativeUrl);
+        if (m) {
+            path += m[0];
+        }
+    }
+
+    return FILESYSTEM_PROTOCOL + '://localhost/' + this.name + path;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+};
+
+/**
+* Return a URL that can be passed across the bridge to identify this entry.
+*/
+Entry.prototype.toInternalURL = function() {
+   if (this.filesystem &amp;&amp; this.filesystem.__format__) {
+     return this.filesystem.<span class="apidocCodeKeywordSpan">__format__</span>(this.fullPath, this.nativeURL);
+   }
+};
+
+/**
+* Return a URL that can be used to identify this entry.
+* Use a URL that can be used to as the src attribute of a &lt;video&gt; or
+* &lt;audio&gt; tag. If that is not possible, construct a cdvfile:// URL.
+...</pre></li>
     </ul>
 
 
@@ -238,7 +373,100 @@
     <li>description and source-code<pre class="apidocCodePre">getFs = function (name, callback) {
     callback(null);
 }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+if (type &lt; 0) {
+    fail(FileError.SYNTAX_ERR);
+} else {
+    // if successful, return a FileSystem object
+    var success = function(file_system) {
+        if (file_system) {
+            if (successCallback) {
+                fileSystems.<span class="apidocCodeKeywordSpan">getFs</span>(file_system.name, function(fs) {
+                    // This should happen only on platforms that haven't implemented requestAllFileSystems (windows)
+                    if (!fs) {
+                        fs = new FileSystem(file_system.name, file_system.root);
+                    }
+                    successCallback(fs);
+                });
+            }
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cordova-plugin-file.index" id="apidoc.module.cordova-plugin-file.index">module cordova-plugin-file.index</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-file.index.getHomePath" id="apidoc.element.cordova-plugin-file.index.getHomePath">
+        function <span class="apidocSignatureSpan">cordova-plugin-file.index.</span>getHomePath
+        <span class="apidocSignatureSpan">(success, fail, args, env)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getHomePath = function (success, fail, args, env) {
+    var homeDir = window.qnx.webplatform.getApplication().getEnv("HOME");
+    new PluginResult(args, env).ok(homeDir);
+}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-file.index.requestAllPaths" id="apidoc.element.cordova-plugin-file.index.requestAllPaths">
+        function <span class="apidocSignatureSpan">cordova-plugin-file.index.</span>requestAllPaths
+        <span class="apidocSignatureSpan">(success, fail, args, env)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">requestAllPaths = function (success, fail, args, env) {
+    var homeDir = 'file://' + window.qnx.webplatform.getApplication().getEnv("HOME").replace('/data', ''),
+        paths = {
+            applicationDirectory: homeDir + '/app/native/',
+            applicationStorageDirectory: homeDir + '/',
+            dataDirectory: homeDir + '/data/webviews/webfs/persistent/local__0/',
+            cacheDirectory: homeDir + '/data/webviews/webfs/temporary/local__0/',
+            externalRootDirectory: 'file:///accounts/1000/removable/sdcard/',
+            sharedDirectory: homeDir + '/shared/'
+        };
+    success(paths);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-file.index.setSandbox" id="apidoc.element.cordova-plugin-file.index.setSandbox">
+        function <span class="apidocSignatureSpan">cordova-plugin-file.index.</span>setSandbox
+        <span class="apidocSignatureSpan">(success, fail, args, env)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">setSandbox = function (success, fail, args, env) {
+    require("lib/webview").setSandbox(JSON.parse(decodeURIComponent(args[0])));
+    new PluginResult(args, env).ok();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *
+*/
+
+/* global PluginResult */
+
+module.exports = {
+setSandbox : function (success, fail, args, env) {
+    require("lib/webview").<span class="apidocCodeKeywordSpan">setSandbox</span>(JSON.parse(decodeURIComponent(args[0])));
+    new PluginResult(args, env).ok();
+},
+
+getHomePath: function (success, fail, args, env) {
+    var homeDir = window.qnx.webplatform.getApplication().getEnv("HOME");
+    new PluginResult(args, env).ok(homeDir);
+},
+...</pre></li>
     </ul>
 
 
